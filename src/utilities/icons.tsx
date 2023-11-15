@@ -25,6 +25,17 @@ import Forecast from "../assets/svg/hourly-forecast/Forecast.svg"
 import Forecast1 from "../assets/svg/hourly-forecast/Forecast1.svg"
 import Forecast2 from "../assets/svg/hourly-forecast/Forecast2.svg"
 
+import Location from "../assets/svg/info/Location.svg"
+
+import Air4 from "../assets/svg//forecast24hrs/Air.svg"
+import Air5 from "../assets/svg//forecast24hrs/Air1.svg"
+import Air6 from "../assets/svg//forecast24hrs/Air2.svg"
+import Air7 from "../assets/svg//forecast24hrs/Air3.svg"
+import Air8 from "../assets/svg//forecast24hrs/Air4.svg" 
+
+import Left from "../assets/svg/forecast24hrs/Left.svg"
+import Right from "../assets/svg/forecast24hrs/Right.svg"
+
 const Icons = {
     MenuCities,
     MenuSettings,
@@ -47,7 +58,15 @@ const Icons = {
     SmartMaple,
     Forecast,
     Forecast1,
-    Forecast2
+    Forecast2,
+    Location,
+    Air4,
+    Air5,
+    Air6,
+    Air7,
+    Air8,
+    Left,
+    Right
 }
 
 export type IconNames =
@@ -73,6 +92,14 @@ export type IconNames =
     | "Forecast"
     | "Forecast1"
     | "Forecast2"
+    | "Location"
+    | "Air4"
+    | "Air5"
+    | "Air6"
+    | "Air7"
+    | "Air8"
+    | "Left"
+    | "Right"
     
 
 

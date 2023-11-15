@@ -28,7 +28,7 @@ const AirConditions: React.FC<Props> = ({ className }) => {
     <div className={clsx("relative p-6", className)}>
       <div className=" flex flex-col h-full">
         <div className="flex-1 flex flex-col justify-evenly">
-          <div className="flex items-center gap-3 font-medium text-[32px]">
+          <div className="flex items-center gap-3 font-medium md:text-[32px]">
             <img src={Icons.Clock} alt="clock" />
             <span className="text-white">8:00 PM GMT</span>
           </div>

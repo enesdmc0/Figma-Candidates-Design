@@ -20,11 +20,11 @@ const Menu: React.FC<Props> = ({ className }) => {
   };
 
   return (
-    <div className={clsx("flex flex-col items-center justify-center gap-4", className)}>
+    <div className={clsx("flex md:flex-col items-center justify-around md:justify-center md:gap-4 p-2", className)}>
       {Object.entries(data).map(([key, value], index) => (
         <div key={index} className="flex flex-col items-center justify-center">
-          <img src={Icons[value]} alt="Menu Logo" />
-          <span className={clsx("", key === "weather" ? "text-white" : "text-[#C4C3C1]" )}>{key}</span>
+          <img src={Icons[value]} alt="Menu Logo" className="w-5 sm:w-10 md:w-max h-5 sm:h-10 md:h-max" />
+          <span className={clsx("text-[10px] sm:text-xs md:text-base", key === "weather" ? "text-white" : "text-[#C4C3C1]" )}>{key}</span>
         </div>
       ))}
     </div>
