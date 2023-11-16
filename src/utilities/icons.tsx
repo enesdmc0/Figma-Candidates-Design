@@ -11,7 +11,7 @@ import Activities3 from "../assets/img/activities/activities3.png"
 import Heart from "../assets/svg/activities/Heart.svg"
 
 import AirConditions from "../assets/svg/air-conditions/AirConditions.svg"
-import Clock from "../assets/svg/air-conditions/CLock.svg"
+import Clock from "../assets/svg/air-conditions/Clock.svg"
 import Air from "../assets/svg/air-conditions/Air.svg"
 import Air1 from "../assets/svg/air-conditions/Air1.svg"
 import Air2 from "../assets/svg/air-conditions/Air2.svg"
