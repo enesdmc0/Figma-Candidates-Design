@@ -18,7 +18,9 @@ const Activities: React.FC<Props> = ({className}) => {
       </div>
       <div className='grid grid-cols-4 gap-2'>
       {data.map((value, index) => (
-        <img key={index}  src={Icons[value]} alt="Activities" />
+        <div key={index} className='flex items-center justify-center'>
+          <img  src={Icons[value]} alt="Activities" className='aspect-square' />
+        </div>
       ))}
       </div>
     </div>

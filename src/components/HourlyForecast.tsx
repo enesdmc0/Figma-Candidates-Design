@@ -96,8 +96,8 @@ const HourlyForecast: React.FC<Props> = ({ className }) => {
                 <div className="text-white"> {item.temp}° </div>
                 <div className="flex flex-col ">
                   <img src={Icons[item.icon]} alt="Forecast" className="w-7 h-7" />
-                  <span className="text-white font-medium text-xs text-center"> {item.temp} km/h </span>
-                  <span className="text-white font-medium text-xs text-center"> {item.time} </span>
+                  <span className="text-white font-medium text-[10px] text-center"> {item.temp} km/h </span>
+                  <span className="text-white font-medium text-[10px] text-center"> {item.time} </span>
                 </div>
               </div>
             ))}
